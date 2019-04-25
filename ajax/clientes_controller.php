@@ -93,19 +93,19 @@
           </div>
           <div class="form-group col-md-4">
             <label for="InputTelefone">Telefone</label>
-            <input type="text" step="0.01" name="telefone" class="form-control" value="<?php echo $dados->CLI_TEL?>" id="InputTelefone" aria-describedby="telefoneHelp" placeholder="Telefone" required>
+            <input type="text" name="telefone" class="form-control" value="<?php echo $dados->CLI_TEL?>" id="InputTelefone" aria-describedby="telefoneHelp" placeholder="Telefone" required>
           </div>
           <div class="form-group col-md-4">
             <label for="InputBairro">Bairro</label>
-            <input type="text" step="0.01" name="bairro" class="form-control" value="<?php echo $dados->CLI_BAIRRO?>" id="InputBairro" aria-describedby="bairroHelp" placeholder="Bairro">
+            <input type="text" name="bairro" class="form-control" value="<?php echo $dados->CLI_BAIRRO?>" id="InputBairro" aria-describedby="bairroHelp" placeholder="Bairro">
           </div>
           <div class="form-group col-md-4">
             <label for="InputCidade">Cidade</label>
-            <input type="text" step="0.01" name="cidade" class="form-control" value="<?php echo $dados->CLI_CIDADE?>" id="InputCidade" aria-describedby="cidadeHelp" placeholder="Cidade">
+            <input type="text" name="cidade" class="form-control" value="<?php echo $dados->CLI_CIDADE?>" id="InputCidade" aria-describedby="cidadeHelp" placeholder="Cidade">
           </div>
           <div class="form-group col-md-4">
             <label for="InputEndereco">Endereço</label>
-            <input type="text" step="0.01" name="endereco" class="form-control" value="<?php echo $dados->CLI_ENDERECO?>" id="InputEndereco" aria-describedby="enderecoHelp" placeholder="Endereço">
+            <input type="text" name="endereco" class="form-control" value="<?php echo $dados->CLI_ENDERECO?>" id="InputEndereco" aria-describedby="enderecoHelp" placeholder="Endereço">
           </div>
           <input type="hidden" name="id" value="<?php echo $dados->CLI_ID?>">
             <button type="submit" class="btn btn-primary col-md-12">Atualizar</button>

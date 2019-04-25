@@ -33,7 +33,6 @@ $(document).ready(function(){
                 }
             }
         });
-
         return false;
     });
 
@@ -49,6 +48,5 @@ $(document).ready(function(){
         setTimeout(function(){
             retorno.fadeOut('slow').empty();
         }, 5000);
-    }
-	
+    }	
 });

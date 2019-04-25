@@ -1,7 +1,6 @@
 <nav class="navbar navbar-default" role="navigation">
     <div class="container">
         <!-- NavBar -->
-
         <div class="pull-right logout">
             <?php if($_SESSION){
                 ?>Bem Vindo: <?php print_r($_SESSION['administrador']->nome);

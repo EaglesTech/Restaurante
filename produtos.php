@@ -1,8 +1,9 @@
-<?php include 'header.inc.php';
-include 'header.navbar.php'
-
-?>
-
+<?php include 'header.inc.php'?>
+<nav class="navbar navbar-default " role="navigation">
+    <div class="container">
+    <!-- NavBar -->
+    <?php include 'navbar.php'?>
+</nav>
 <div class="container">
     <div class="col-lg-12">
         <h2 class="linha">Cadastro de Produtos</h2>

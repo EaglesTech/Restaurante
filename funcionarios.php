@@ -1,7 +1,12 @@
-<?php include 'header.inc.php'; include 'header.navbar.php'?>
+<?php include 'header.inc.php'?>
+<nav class="navbar navbar-default " role="navigation">
+    <div class="container">
+    <!-- NavBar -->
+    <?php include 'navbar.php'?>
+</nav>
         <div class="container">
             <div class="col-lg-12">
-                <h2 class="linha">Cadastro de Usuários</h2>
+                <h2 class="linha">Cadastro de Funcionários</h2>
                 <a href="#" class="list-group-item" id="janela">Cadastrar Usuários</a>
                 <div class="box">
                         <div class="box-content nopadding">

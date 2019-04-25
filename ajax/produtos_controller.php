@@ -2,7 +2,6 @@
     require '../funcoes/banco/conexao.php';
     require '../funcoes/crud/crud_produtos.php';
     $acao = filter_input(INPUT_POST, 'acao', FILTER_SANITIZE_STRING);
-
     switch ($acao) {
     case 'cadastro':
     $nome = filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_STRING);

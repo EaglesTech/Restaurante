@@ -12,8 +12,19 @@ if(isset($_GET['logout']) && $_GET['logout']==true){
 <nav class="navbar navbar-default " role="navigation">
     <div class="container">
         <!-- NavBar -->
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <div class="pull-left dropdown">
+            <a class="dropdown-toggle btn btn-secondary btn-lg" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Cadastro
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <ul>
+                    <li><a class="dropdown-item" href="#">Produto</a></li>
+                    <li><a class="dropdown-item" href="#">Clientes</a></li>
+                    <li><a class="dropdown-item" href="#">Funcionários</a></li>
+                </ul>
 
+            </div>
+        </div>
         <div class="pull-right logout">
                         <?php if($_SESSION){
                             ?>Bem Vindo: <?php print_r($_SESSION['administrador']->nome);
@@ -23,7 +34,6 @@ if(isset($_GET['logout']) && $_GET['logout']==true){
                         <a href="painel.php" class="btn btn-warning">Inicio</a>
                         <a href="?logout=true" class="btn btn-danger">Sair</a>
         </div>
-    </div>
 </nav>
 
 <!-- /NavBar -->

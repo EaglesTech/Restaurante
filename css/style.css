@@ -20,3 +20,12 @@ footer {
     border-bottom: 1px solid rgb(0, 0, 0);
     font-weight: bold;
 }
+
+.dropdown a{
+    color: black;
+}
+
+.dropdown-menu a{
+    text-decoration: none;
+    margin-left: 10px;
+}

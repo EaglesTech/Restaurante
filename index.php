@@ -1,7 +1,6 @@
 <?php include 'header.inc.php';
 include 'header.navbar.php'
 ?>
-
         <div class="container">
             <div class="login">
                 <h2>Login</h2>

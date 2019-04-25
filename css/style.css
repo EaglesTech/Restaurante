@@ -1,0 +1,22 @@
+body {
+    background-color: #f1f1f1;
+}
+footer {
+    width: 101%;
+    margin: -0% -1%;
+    margin-bottom: -1%;
+}
+
+.login{
+    width: 400px;
+    padding: 5px 15px 15px 15px;
+    margin: 40px auto;
+}
+
+.login h2{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    font-weight: bold;
+}
